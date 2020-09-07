@@ -1159,7 +1159,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/* https://cff2.earth.com/uploads/2018/02/22001907/Nocturnal-creatures-use-starlight-as-a-compass-in-the-dark-.jpg */
-			background-image: url("../../images/Nocturnal-creatures-use-starlight-as-a-compass-in-the-dark-.jpg");
+			/* https://www.fanpop.com/clubs/barbie-movies/images/39890731/title/barbie-star-light-adventure-starry-sky-wallpaper */
+			background-image: url("../../images/star\ light\ backgroud.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;

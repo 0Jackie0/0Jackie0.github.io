@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>Jackie Leung Porfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -33,10 +33,10 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Info</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">Exprience</a></li>
+								<li><a href="#Project">Project</a></li>
+								<!-- <li><a href="#about">Exprience</a></li> -->
 								<li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Elements</a></li>
+								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
 						</nav>
 					</header>
@@ -47,7 +47,8 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Information</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<!-- https://interestingengineering.com/the-skills-that-you-need-to-hone-to-become-a-software-engineer -->
+								<span class="image fit"><img src="images/developer image.jpg" alt="" /></span>
 								<p>
 									Graduate from Southern Alberta Instityte of Technology(<a href="https://www.sait.ca/">SAIT</a>) in Calgary, Canada.<br/>
 									Actively hunting for positions as Software Developer.
@@ -63,18 +64,49 @@
 										<li><a href="https://github.com/0Jackie0/WarframAccountentWebApp">React.js</a></li>
 										<li><a href="https://github.com/0Jackie0/WarframAccountent-React-Native">React Native</a></li>
 										<li><a href="https://github.com/0Jackie0/WarframAccountentWebApp-Vue-">Vue.js</a></li>
-										<li><a href="https://github.com/0Jackie0/WarframAccountentWeixinSmallProgram">WeChat small program</a></li>
+										<li><a href="https://github.com/0Jackie0/WarframAccountentWeixinSmallProgram">WeChat Mini-program</a></li>
 									</ul>
-									Please check out my <a href="https://github.com/0Jackie0">GitHub</a>
+									<p>Please check out my <a href="https://github.com/0Jackie0">GitHub</a></p>
 								</p>
 							</article>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+						<!-- Project -->
+							<article id="Project">
+								<h2 class="major">Project</h2>
+								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<h3>Capstone Project</h3>
+								<sup>Southern Alberta Institute of Technology (SAIT), Calgary AB</sup><br/><sup>September 2019 - April 2020</sup>
+
+								<span class="image fit"><a href="https://www.terraformcorp.com/"><img src="images/terraform.png" alt="" /></a></span>
+
+								<p>Collaborate with a team of 6 to design, build and deploy a software solution. It is a system of a web application and the Android mobile application. The web part was implemented with React.js for front-end, Spring for server API and deployed on AWS.</p>
+								<ul>
+									<li>Install development tools which include Android studio, node package manager, spring eclipse</li>
+									<li>Build, configure and troubleshot the application when interact with Google Map and Firebase Cloud Message(FCM)</li>
+									<li>Doing live demo, design review presentation and technical review presentation with client and instructor</li>
+								</ul>
+
+								<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+								<h3>Personal project</h3>
+								<sup>April 2020 - Present</sup>
+								<p>Design and build the application which has two versions sharing a common server API that helps players to manage the game item they have in the game.</p>
+								<ul>
+									<li>Web version</li>
+									<ul>
+										<li>Implement front-end using React.js and Vue.js</li>
+										<li>Build web API with <a href="https://github.com/0Jackie0/WarframAccountentServer-ASP.NET">ASP.NET</a>, <a href="https://github.com/0Jackie0/WarframAccountentServer">Spring</a> and <a href="https://github.com/0Jackie0/WarframAccountentServer-Express">Express.js</a> that serve JSON data and video</li>
+										<li>Test application with a real player and make adjustment to the application</li>
+									</ul>
+									<li>Mobile version</li>
+									<ul>
+										<li>Implement the mobile application with <a href="https://github.com/0Jackie0/WarframAccountent-React-Native">React Native</a> and tested on both Android and iOS</li>
+										<li>Implement the application with <a href="https://github.com/0Jackie0/WarframAccountentWeixinSmallProgram">WeChat Mini-prgram</a></li>
+										<li>Implement another version of the mobile application on <a href="https://github.com/0Jackie0/WarframAccountent">Native Android</a> which has a room local database that allow the user to use the application with no internet connection</li>
+									</ul>
+								</ul>
+
+								<p>View all source code on <a href="https://github.com/0Jackie0">GitHub</a></p>
 							</article>
 
 						<!-- About -->
@@ -86,32 +118,26 @@
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
+								<h2 class="major">Contact Info</h2>
+
+								<h4>Email</h4>
+								<p><a href = "mailto: jackie_work@yahoo.com">jackie_work@yahoo.com</a></p>
+
+								<h4>Phone Number</h4>
+								<p>(403) 708 - 6058</p>
+
+								<h4>Address</h4>
+								<p>Panorama Hills NW, Calgary AB</p>
+
+								<h4>Download Resume</h4>
+								<ul class="actions">
+									<li><a href="resume/Jackie Leung Resume.docx" download="Jackie Resume" class="button icon solid fa-download">Docx</a></li>
+									<li><a href="resume/Jackie Leung Resume.pdf" download="Jackie Resume" class="button icon solid fa-download">PDF</a></li>
+								</ul>
+								
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/jackie-leung-profile" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/0Jackie0" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -375,6 +401,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
